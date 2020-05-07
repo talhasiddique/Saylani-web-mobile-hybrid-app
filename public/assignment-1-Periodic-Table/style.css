@@ -1,0 +1,34 @@
+@font-face {
+    font-family: gothic;
+    src: url(../fonts/gothic.ttf);
+  }
+  .home{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3% auto;
+  }
+  
+  .home > a{
+    display: inline-block;
+    width: 100%;
+    border: 2px solid;
+    padding: 5% 0;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 10px;
+  }
+  
+  .home > a:hover{
+    color: bisque;
+    background-color: #227595;
+    transition: all ease-in-out 0.2s;
+  }
+  body {
+    font-family: gothic;
+    background-color: #bff0f8;
+  }
+  
